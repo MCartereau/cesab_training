@@ -1,0 +1,11 @@
+^LICENSE\.md$
+^data$
+^analyses$
+^R$
+^figures$
+^outputs$
+^make\.R$
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^README\.html$

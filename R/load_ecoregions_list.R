@@ -1,13 +1,19 @@
-#' Download and read the data we will need
-#' 
-#' I CHANGED THIS
+#' Download ecoregions list dataset
 #' 
 #' @description
-#' Download and read the data we will need for this project 
+#' This function downloads the ecoregions list dataset (csv file) hosted on the 
+#' GitHub repository <https://github.com/rdatatoolbox/datarepo/>. The file
+#' won't be downloaded if already exists locally (except if `overwrite = TRUE`).
+#' The file `wildfinder-ecoregions_list.csv` will be stored in 
+#' `data/wildfinder/`. This folder will be created if required.
 #' 
-#' @param overwrite logical: either overwrite or not if the file already exists
+#' @param overwrite a `logical`. If `TRUE`, the file will be downloaded again 
+#'   and the previous version will be replaced.
+#'   
+#' @return No return value.
 #' 
-read_data <- function(overwrite = FALSE) {
+#' @export
+dl_ecoregions_list_data <- function(overwrite = FALSE) {
   
   ## Destination ---- 
   path <- here::here("data", "wildfinder")

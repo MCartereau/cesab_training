@@ -1,0 +1,21 @@
+Package: cesab_ecostat
+Type: Package
+Title: CESAB training Montpellier 2023
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Manuel",
+           family  = "Cartereau",
+           role    = c("aut", "cre", "cph"),
+           email   = "manuel.cartereau@gmail.com",
+           comment = c(ORCID = "0000-0002-4496-0527")))
+Description: Nothing crucial here
+URL: https://github.com/MCartereau/cesab_ecostat
+BugReports: https://github.com/MCartereau/cesab_ecostat/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    devtools,
+    here,
+    utils

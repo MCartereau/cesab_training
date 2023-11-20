@@ -1,11 +1,19 @@
-#' Download and read the data we will need
+#' Download PanTHERIA dataset
 #' 
 #' @description
-#' Download and read the data we will need for this project HERE I MODIFY SOMETHING jj
+#' This function downloads the PanTHERIA dataset (text file) hosted on the 
+#' GitHub repository <https://github.com/rdatatoolbox/datarepo/>. The file
+#' won't be downloaded if already exists locally (except if `overwrite = TRUE`).
+#' The file `PanTHERIA_1-0_WR05_Aug2008.txt` will be stored in 
+#' `data/pantheria/`. This folder will be created if required.
 #' 
-#' @param overwrite logical: either overwrite or not if the file already exists
+#' @param overwrite a `logical`. If `TRUE`, the file will be downloaded again 
+#'   and the previous version will be replaced.
+#'   
+#' @return No return value.
 #' 
-read_data <- function(overwrite = FALSE) {
+#' @export
+dl_pantheria_data <- function(overwrite = FALSE) {
   
   ## Destination ---- 
   path <- here::here("data", "pantheria")
@@ -35,5 +43,3 @@ read_data <- function(overwrite = FALSE) {
   
   invisible(NULL) 
 }
-
-
