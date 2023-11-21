@@ -18,7 +18,7 @@
 
 ## Overview
 
-This research compendium… **{{ blabla }}**
+This research compendium aims to make clones
 
 ## Features
 
