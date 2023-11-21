@@ -38,7 +38,7 @@ cesab_ecostat <img src="man/figures/compendium-sticker.png" align="right" style=
 
 ## Overview
 
-This research compendium... **{{ blabla }}**
+This research compendium aims to make clones
 
 
 
