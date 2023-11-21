@@ -22,7 +22,7 @@ This research compendium aims to make clones
 
 ## Features
 
-The main purpose of this compendium is to… **{{ toto }}**
+The main purpose of this compendium is to understand reproductibility
 
 ## Content
 
